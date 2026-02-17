@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="chromebrowser">
+  <parameter name ="Browser" value ="ChromeDriver"> </parameter>
+    <classes>
+      <class name="testNGPraticing.SeventhWeekFR"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="firefoxbrowser">
+  <parameter name ="Browser" value ="FireFox"> </parameter>
+    <classes>
+      <class name="testNGPraticing.SeventhWeekFR"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="edgebrowser">
+  <parameter name ="Browser" value ="Edge"> </parameter>
+    <classes>
+      <class name="testNGPraticing.SeventhWeekFR"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
